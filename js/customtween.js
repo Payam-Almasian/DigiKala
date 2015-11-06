@@ -1,3 +1,9 @@
 jQuery(document).ready(function($) {
-	$(".container").mixItUp();
+	$(".container").mixItUp(
+			{
+				load: {
+						filter: '.blue' // pass it to MixItUp when you instantiate
+					}
+			}
+		);
 });

@@ -3,13 +3,14 @@ body {
 	margin: 0;
 	max-height:100vh;
 	overflow-y: hidden;
-	background-color:#f7f7f7;
+	background-color:#F4F4F5;
 	/*background: #1D1E21 none repeat scroll 0% 0%;*/
 
 }
 
 p {
 	margin:10px;
+	color: #222;
 }
 
 .naviagtionc{
@@ -27,7 +28,7 @@ p {
 	width:90%;
 	height:90%;
 	position:absolute;
-	bottom:0px;
+	bottom:5%;
 	background-color: rgba(255, 255, 255, 0.7);
 	
 }
@@ -77,7 +78,7 @@ p {
 	margin: 5px;
 	background-color: #eee;
 	min-height:270px;
-	max-height:400px;
+	max-height:270px;
 	width:300px;
 	-webkit-flex: 2 0 0; 
     flex: 2 0 0;
@@ -96,7 +97,7 @@ p {
 	background-color: #eee;
 	margin: 5px;
 	min-height:270px;
-	max-height:400px;
+	max-height:270px;
 	-webkit-flex: 2 0 0; 
 	flex: 2 0 0;
 	width:300px;
@@ -111,3 +112,117 @@ p {
 
 
 
+
+
+.iconstogerhter{
+	position: absolute;
+	top: 88%;
+	right: 2%;
+
+}
+.iconstogerhter:hover{
+	opacity: .7;
+	cursor: pointer;
+}
+
+.hoverdeactive{
+	opacity:0;
+}
+
+
+.hoveractive{
+	display: block;
+		transition: all;
+	transition-duration: 1s;
+}
+
+
+
+.deactivated{
+	display: none;
+}
+
+
+#btnbasket{
+	background-color: #38C3EF;
+}
+
+#btnlogin{
+	background-color: #38C3EF;
+}
+
+#countnav{
+	background-color: #38C3EF;
+}
+
+.ui.red.labels .label::before {
+    background-color: #FFCF20 !important;
+}
+
+.ui.red.label, .ui.red.labels .label {
+    background-color: #FFCF20 !important;
+    border-color: #FFCF20 !important;
+    color: #FFF !important;
+}
+
+
+.ui.labels .red.label::before, .ui.red.label::before, .ui.red.labels .label::before {
+    background-color: #FFCF20 !important;
+}
+
+
+a.ui.red.label:hover, a.ui.red.labels .label:hover {
+    background-color: #FFCF20 !important;
+    border-color: #FFCF20 !important;
+    color: #FFF !important;
+}
+
+
+.ui.labels .red.label::before, .ui.red.label::before, .ui.red.labels .label::before {
+    background-color: #FFCF20 !important;
+}
+.ui.labels .red.label::before, .ui.red.label::before, .ui.red.labels .label::before:hover {
+    background-color: #FFCF20 !important;
+}
+
+.ui.red.label, .ui.red.labels .label {
+    background-color: #FFCF20 !important;
+    border-color: #FFCF20 !important;
+    color: #FFF !important;
+}
+
+.ui.red.label, .ui.red.labels .label:hover {
+    background-color: #FFCF20 !important;
+    border-color: #FFCF20 !important;
+    color: #FFF !important;
+}
+
+
+form p,h1,h2,h3,h4,label,.content {
+	color: #fff!important;
+}
+
+.buybasketcontainer .ui.button{
+	background-color: transparent;
+	border: 1px solid #9ABB1C;
+	color: #9ABB1C;
+}
+
+
+#countnav ::before:hover{
+	opacity:1.0;
+
+box-shadow:none;
+}
+
+
+.buybasketcontainer .ui.button:hover{
+	background-color: transparent;
+	border: 1px solid #BADF2B;
+	color: #BADF2B;
+}
+
+
+.products p {
+	color: #272E3A;
+}

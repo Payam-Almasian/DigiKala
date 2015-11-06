@@ -1,0 +1,24 @@
+.navigationicon{
+	cursor: pointer;
+	position: fixed;
+	left: 60px;
+	top:4vh;
+
+}
+
+.mynavigation{
+	display:block;
+	position: fixed;
+	z-index:3;
+	left: 20px;
+	top:4vh;
+	background-color: #eee;
+	opacity:.9;
+	width: 40vw;
+	height: 90vh;
+
+}
+
+.navigationlink{
+	
+}

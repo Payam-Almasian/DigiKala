@@ -1,0 +1,9 @@
+.mynavigate{
+	text-align: center;
+	width: 100vw;
+	position: fixed;
+	
+	bottom: 0;
+	z-index: 10;
+	
+}

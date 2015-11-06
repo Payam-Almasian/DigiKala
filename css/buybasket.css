@@ -1,0 +1,42 @@
+.buybasketcontainer p,ul {
+	margin: 0;
+	padding: 0;
+}
+.buybasketcontainer{
+	display:block;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	
+	z-index: 8;
+	background: transparent linear-gradient(to right, #4F1D7B 0px, #A24384 50%, #F4698C 100%) repeat scroll 0% 0%;
+}
+
+.buybasketcontainer .summary{
+	width: 100%;
+	height: 61.9%;
+	
+	box-sizing: border-box;
+	padding:15px;
+	overflow-y: scroll;
+
+}
+
+.buybasketcontainer .payment{
+	width: 100%;
+	height: 38.1% ;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	padding:15px;
+
+}
+
+.basketform{
+	position: fixed;
+	left: 0;
+	box-sizing: border-box;
+	padding:15px;
+
+}
+

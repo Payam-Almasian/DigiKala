@@ -3,13 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>digi</title>
+	<link rel="stylesheet" href="css/semantic.min.css">
+
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/animate.css">
+
+
+	<link rel="stylesheet" href="css/customnav.css">
+
+	<link rel="stylesheet" href="css/basket.css">
+
+	<link rel="stylesheet" href="css/buybasket.css">
+
+	<link rel="stylesheet" href="css/mynavigate.css">
+
+
+  
 	<script src="js/jquery.min.js"></script>
+	<script src="js/semantic.min.js"></script>
 	<script src="js/mouse.js"></script>
 	<script src="js/tweenmax.min.js"></script>
 	<script src="js/ScrollToPlugin.js"></script>
 	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/btnfunctions.js"></script>
 	
 
 
@@ -18,43 +34,313 @@
 
 
 
-<!-- <div style="height : 40px">
-	<p style="vertical-align: middle;">Lorem ipsum dolor sit amet.</p>
-</div>
- -->
 
 
 
 
 <div class="wrap" style="text-align:right">
 
-	<div class="container">
-	<!-- 
-		<div class="naviagtionc">
-			<p style="width:1200px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut est nemo non reprehenderit quod blanditiis repudiandae maxime ipsa nam, facilis iusto consequuntur impedit aut consectetur laboriosam temporibus corporis quae excepturi.</p>
-		</div> -->
 
-		<!-- <div class="shit animated rollOut">
-			<p>some</p>
+		<div class="buybasketcontainer animated bounceOutUp">
+			<div class="mycol3">
+				<div class="summary">
+					
+
+
+
+
+
+	<div class="ui middle aligned divided list">
+	  <div class="item" style="text-align: left;">
+	    <div class="right floated content">
+	      <div class="ui button">Remove</div>
+	    </div>
+	    <img class="ui avatar image" src="img/pic1.jpg">
+	    <div class="content">
+	      Lena , 2200 , 16/7/93
+	    </div>
+	  </div>
+	  <div class="item" style="text-align: left;"> 
+	    <div class="right floated content">
+	      <div class="ui button">Remove</div>
+	    </div>
+	    <img class="ui avatar image" src="img/pic1.jpg">
+	    <div class="content">
+	      Lindsay
+	    </div>
+	  </div>
+	  <div class="item" style="text-align: left;">
+	    <div class="right floated content">
+	      <div class="ui button">Remove</div>
+	    </div>
+	    <img class="ui avatar image" src="img/pic1.jpg">
+	    <div class="content">
+	      Mark
+	    </div>
+	  </div>
+	  <div class="item" style="text-align: left;">
+	    <div class="right floated content">
+	      <div class="ui button">Remove</div>
+	    </div>
+	    <img class="ui avatar image" src="img/pic1.jpg">
+	    <div class="content">
+	      Molly
+	    </div>
+	  </div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+				<div class="payment" style="text-align:left">
+					
+
+<table class="ui striped table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="top aligned">
+      <td>John</td>
+      <td>Approved</td>
+      <td class="top aligned">
+        Notes<br>
+        1<br>
+        2<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Jamie</td>
+      <td class="bottom aligned">Approved</td>
+      <td>
+        Notes<br>
+        1<br>
+        2<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+				</div>
+
+			</div>
+			<div class="mycol7">
+
+
+
+<form class="ui form basketform">
+
+	<h4 class="ui dividing header">Sign Up information</h4>
+	<div class="field">
+		<label>Name</label>
+		<div class="two fields">
+			<div class="field">
+				<input name="shipping[first-name]" placeholder="First Name" type="text">
+			</div>
+			<div class="field">
+				<input name="shipping[last-name]" placeholder="Last Name" type="text">
+			</div>
 		</div>
-		<div class="shit animated rollIn">
-			<p>thing</p>
-		</div> -->
+	</div>
 
-		<div class="mix item_1 blue" data-custom-order="1">
+	<div class="field">
+		<label>Billing Address</label>
+		<div class="fields">
+			<div class="twelve wide field">
+				<input name="shipping[address]" placeholder="Street Address" type="text">
+			</div>
+			<div class="four wide field">
+				<input name="shipping[address-2]" placeholder="Apt #" type="text">
+			</div>
+		</div>
+	</div>
+
+	<div class="field">
+		<label>Billing Address</label>
+		<div class="fields">
+			<div class="twelve wide field">
+				<input name="shipping[address]" placeholder="Street Address" type="text">
+			</div>
+			<div class="four wide field">
+				<input name="shipping[address-2]" placeholder="Apt #" type="text">
+			</div>
+		</div>
+	</div>
+	
+
+	  <div class="field">
+	    <label>Country</label>
+	    <select multiple="" class="ui dropdown">
+	      <option value="">Gender</option>
+	      <option value="1">Male</option>
+	      <option value="0">Female</option>
+	    </select>
+	  </div>
+
+
+	<div class="field">
+		<label>Text</label>
+		<textarea></textarea>
+	</div>
+
+
+
+
+	<div class="inline field">
+	    <div class="ui slider checkbox">
+	      <input class="hidden" tabindex="0" type="checkbox">
+	      <label>agree with some situation</label>
+	    </div>
+	    <label></label>
+	    	<div class="ui submit button">Submit</div>
+	</div>
+
+
+ 
+
+
+</form>
+
+<!-- end of row -->
+
+
+
+			</div>
+		</div>
+
+
+
+
+		<div class="basketcontainer">
+			<div class="mycol3">
+				<div class="picture"></div>
+				<div class="comments">
+					<p>Lorem ipsum dolor sit amet.</p>
+					<p>Lorem ipsum dolor sit amet.</p>
+					<p>Lorem ipsum dolor sit amet.</p>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div class="mycol7">
+				<div class="discription">
+					<h1>Lorem ipsum dolor.</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci tempora ipsa dolores quidem, asperiores vel. Quidem pariatur, incidunt dolorem autem labore aut asperiores accusamus amet, laboriosam nisi suscipit reprehenderit eum?</p>
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="mynavigate">
+			
+			<div class="ui labeled button" tabindex="0" style="background-color: transparent;">
+				  <div class="ui primary  button" id="btnlogin">
+				    <i class="heart icon"></i> Log In
+				  </div>
+				  
+				  <div class="ui primary  button" id="btnbasket">
+				    <i class="shop icon"></i> Basket
+				  </div>
+				  <a class="ui basic red left pointing label" id="">
+				    1,048
+				  </a>
+				 
+			</div>
+			
+
+
+			
+
+		</div>
+	
+
+
+
+
+
+
+
+	<div class="container">
+	
+		
+
+		<div class="mix item_1 green products" data-custom-order="1">
 			
 			<p class="shit"><span style="color:#5C5EDC;">shit product </span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iste atque unde facere error ducimus laudantium obcaecati, ullam optio, eius. <br>
 			Lorem ipsum dolor sit.
 			</p>
 
 		</div>
-		<div class="mix item_2 blue" data-custom-order="2">
+		
 
-			<p class="shit"><span style="color:#4F4F64;">shit product </span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iste atque unde facere error ducimus laudantium obcaecati, ullam optio, eius. <br>
+		<div class="mix item_2 blue products" data-custom-order="2">
+
+			<p class="shit hoverdeactive"><span style="color:#4F4F64;">shit product </span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iste atque unde facere error ducimus laudantium obcaecati, ullam optio, eius. <br>
+			Lorem ipsum dolor sit.
+
+				<span class="iconstogerhter fistone animated bounceIn" >Add to my basket 
+					<span>
+						<i class="plus icon"></i>
+					</span>
+				</span>	
+
+
+				<span class="iconstogerhter secondone animated bounceOut" >Remove from my basket 
+					<span>
+						<i class="minus icon"></i>
+					</span>
+				</span>
+
+			</p>
+
+		</div>
+		<div class="mix item_2 blue products" data-custom-order="2">
+
+			<p class="shit hoverdeactive"><span style="color:#4F4F64;">shit product </span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iste atque unde facere error ducimus laudantium obcaecati, ullam optio, eius. <br>
 			Lorem ipsum dolor sit.
 			</p>
 
 		</div>
+
+		<div class="mix item_2 blue products" data-custom-order="2">
+
+			<p class="shit hoverdeactive"><span style="color:#4F4F64;">shit product </span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iste atque unde facere error ducimus laudantium obcaecati, ullam optio, eius. <br>
+			Lorem ipsum dolor sit.
+			</p>
+
+		</div>
+
+
+		<div class="mix item_2 blue" data-custom-order="2">
+
+			<p class="shit hoverdeactive"><span style="color:#4F4F64;">shit product </span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iste atque unde facere error ducimus laudantium obcaecati, ullam optio, eius. <br>
+			Lorem ipsum dolor sit.
+			</p>
+
+		</div>		
+
+
 
 	</div>
 
@@ -68,5 +354,18 @@
 	<script src="js/scroll.js"></script>
 	<script src="js/customtween.js"></script>
 
+
+	<script>
+		$('select.dropdown')
+		  .dropdown()
+		;
+		$('.ui.checkbox')
+		  .checkbox()
+		;
+		$('.container > .mix').hover(
+		       function(){ TweenMax.to($(this).find("p"), 2.5  , {opacity:1, ease:Expo. easeOut, });},
+		       function(){ TweenMax.to($(this).find("p"), 2.5  , {opacity:0, ease:Expo. easeOut, }); }
+		);
+	</script>
 </body>
 </html>
