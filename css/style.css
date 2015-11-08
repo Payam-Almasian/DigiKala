@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	max-height:100vh;
 	overflow-y: hidden;
-	background-color:#F4F4F5;
+	background-color:#f8f8f8;
 	/*background: #1D1E21 none repeat scroll 0% 0%;*/
 
 }
@@ -48,7 +48,7 @@ p {
 .container {
 		
 		height:90vh;
-		width:1000px;
+		width:2000px;
 		box-sizing: border-box;
 		margin:20px;
 
@@ -225,4 +225,64 @@ box-shadow:none;
 
 .products p {
 	color: #272E3A;
+}
+
+
+
+.loginform .ui.button{
+	background-color: transparent;
+	border: 1px solid #9ABB1C;
+	color: #9ABB1C;
+}
+
+
+.loginform .ui.button:hover{
+	background-color: transparent;
+	border: 1px solid #BADF2B;
+	color: #BADF2B;
+}
+
+
+
+.signuppage .ui.button{
+	background-color: transparent;
+	border: 1px solid #9ABB1C;
+	color: #9ABB1C;
+}
+
+
+.signuppage .ui.button:hover{
+	background-color: transparent;
+	border: 1px solid #BADF2B;
+	color: #BADF2B;
+}
+
+
+
+#mainmenubtn{
+	background-color: #38C3EF;
+}
+
+.animating{
+	position: relative;
+	opacity: 0;
+	left: -200px;
+}
+
+
+
+.blue {
+	 -webkit-background-size: cover;
+	background-size: cover;
+	background-image: url(../img/mobile1.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.green {
+		 -webkit-background-size: cover;
+	background-size: cover;
+	background-image: url(../img/laptopb.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }

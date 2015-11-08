@@ -1,0 +1,46 @@
+.awsomenavigation {
+	
+	height: 90%;
+	top: 5%;
+	position: fixed;
+	left: 0;
+	z-index: 99;
+	opacity: .9;
+	border-radius: 0 5px 5px 0;
+	text-align: center;
+	width: 0;
+}
+
+.awsomenavigation .innersome { 
+	margin-left: 5px;
+	margin-bottom: 1px;
+	width: 200px;
+	height: 175px;
+
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+
+}
+
+.awsomenavigation .innersome:hover{ 
+	border: 1px solid #96D860;
+	cursor: pointer;
+}
+
+
+.imageone{background-image: url(../img/all.jpg);
+		
+
+}
+
+.imagetwo{
+		background-image: url(../img/Samsung-laptop.jpg);
+}
+
+.imagethree{
+		background-image: url(../img/mobile.jpeg);
+}
+
+
+

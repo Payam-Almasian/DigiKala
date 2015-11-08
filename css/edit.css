@@ -1,0 +1,23 @@
+.editalldata{
+		background: transparent linear-gradient(to right, #4F1D7B 0px, #A24384 50%, #F4698C 100%) repeat scroll 0% 0%;
+
+	display:block;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	
+	z-index: 10;
+	
+/*	background: transparent linear-gradient(to right, #4F1D7B 0px, #A24384 50%, #F4698C 100%) repeat scroll 0% 0%;
+*/}
+
+
+.myforminedit { 
+width: 100%;
+}
+
+.tableeditwraper{
+	box-sizing: border-box;
+	padding: 20px;
+}

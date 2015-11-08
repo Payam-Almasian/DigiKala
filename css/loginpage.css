@@ -1,0 +1,39 @@
+.loginpage { 
+	width: 38.46%;
+	height: 90%;
+	top: 5%;
+background: transparent linear-gradient(to right, #4F1D7B 0px, #A24384 50%, #F4698C 100%) repeat scroll 0% 0%;
+	position: fixed;
+	left: 0;
+	z-index: 99;
+	opacity: .9;
+	border-radius: 0 5px 5px 0;
+}
+
+.loginform{
+	box-sizing: border-box;
+	padding:40px;
+}
+
+
+
+
+.signuppage { 
+	width: 38.46%;
+	height: 90%;
+	top: 5%;
+    background: transparent linear-gradient(to right, #4F1D7B 0px, #A24384 50%, #F4698C 100%) repeat scroll 0% 0%;
+	position: fixed;
+	right:0%;
+	z-index: 99;
+	opacity: .9;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.signupform{
+	box-sizing: border-box;
+	padding:40px;
+}
+
+
+
